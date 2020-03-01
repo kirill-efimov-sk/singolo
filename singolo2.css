@@ -1,0 +1,214 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+.content {
+  display: grid;
+  grid-template-areas:  "main"
+                        "bgBottom1"
+                        "section"
+                        "bgBottom2";
+  grid-template-columns: 100%;
+  width: 1020px;
+  margin: 0 auto;
+  font-family: "Lato";
+}
+main {
+  grid-area: main;
+  width: 1020px;
+  height: 864px;
+  margin: 0 auto;
+}
+section {
+  grid-area: section;
+  width: 1020px;
+  height: 722px;
+  margin: 0 auto;
+}
+.container_card {
+  height: 864px;
+  margin: 0 auto;
+  background-color: #2d303a;
+}
+.container_bgBottom1 {
+  grid-area: bgBottom1;
+  height: 6px;
+  margin: 0;
+  background-color: #323746;
+}
+.container_aboutUs {
+  height: 722px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.container_bgBottom2 {
+  grid-area: bgBottom2;
+  height: 7px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+.logo1 {
+  font-size: 30px;
+  color: #666d89;
+  font-weight: 900;
+  margin: 0px 858px 0px 40px;
+  padding-top: 60px;
+}
+.logo2 {
+  font-size: 30px;
+  color: #666d89;
+  font-weight: 900;
+  margin: 0px 825px 0px 40px;
+  padding-top: 58px;
+}
+.text1 {
+  width: 940px;
+  font-weight: 300;
+  font-size: 17.5px;
+  letter-spacing: 0.0pt;
+  word-spacing: 0.9pt;
+  color: #767e9e;
+  margin: 0px 297px 0px 41px;
+  padding-top: 22px;
+}
+.text2 {
+  width: 940px;
+  font-weight: 300;
+  font-size: 17.5px;
+  color: #767e9e;
+  margin: 0px 297px 0px 40px;
+  padding-top: 17px;
+  line-height: 1.8;
+  text-align: justify;
+}
+span {
+  letter-spacing: 0.1pt;
+  word-spacing: 0.3pt;
+}
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #767e9e;
+  border-radius: 5px;
+  border: 1px solid #767e9e;;
+  margin-right: 12px;
+  padding: 3px 5px 3px 6px;
+}
+ul li a:hover {
+  color: #dedede;
+  border: 1px solid #c5c5c5;
+}
+.active {
+  color: #dedede;
+  border: 1px solid #c5c5c5;
+}
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  max-width: 100%;
+  max-height: 620px;
+  overflow: hidden;
+  margin: -15px 0 0 20px;
+}
+.gallery .img {
+  width: 220px;
+  height: 187px;
+  border: 0px solid gray;
+  overflow: hidden;
+  margin: 20px 20px 0 0;
+}
+.gallery img.pr01:nth-child(1) {
+  margin: -10px 0px 0px -8px;
+}
+.gallery img.pr02:nth-child(1) {
+  margin: -42px 0px 0px -82px;
+}
+.gallery img.pr03:nth-child(1) {
+  margin: 0px 0px 0px -11px;
+}
+.gallery img.pr04:nth-child(1) {
+  margin: -1px 0px 0px -24px;
+}
+.gallery img.pr05:nth-child(1) {
+  margin: -16px 0px 0px -10px;
+}
+.gallery img.pr06:nth-child(1) {
+  margin: -3px 0px 0px -16px;
+}
+.gallery img.pr07:nth-child(1) {
+  margin: -39px 0px 0px -30px;
+}
+.gallery img.pr08:nth-child(1) {
+  margin: -31px 0px 0px -23px;
+}
+.gallery img.pr09:nth-child(1) {
+  margin: -2px 0px 0px -15px;
+}
+.gallery img.pr010:nth-child(1) {
+  margin: -112px 0px 0px -140px;
+}
+.gallery img.pr011:nth-child(1) {
+  margin: -174px 0px 0px -143px;
+}
+.gallery img.pr012:nth-child(1) {
+  margin: -58px 0px 0px -36px;
+}
+.galleryPeople {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  max-width: 100%;
+  max-height: 620px;
+  overflow: hidden;
+  margin: -13px 0 0 17px;
+}
+.galleryPeople .people {
+  width: 300px;
+  height: 500px;
+  margin: 58px 18px 0 3px;
+}
+.galleryPeople img {
+  width: 300px;
+  height: 300px;
+  background-color: #464b5e;
+}
+.galleryPeople h2 {
+  font-size: 18px;
+  color: #666d89;
+  font-weight: 900;
+  margin: 11px -4px -1px -2px;
+}
+.galleryPeople p {
+  width: 300px;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: justify;
+  color: #767e9e;
+  line-height: 1.8;
+  margin: 9px -2px 0 -1px;
+}
+.galleryPeople img.social {
+  width: 34px;
+  height: 34px;
+  border-radius: 18px;
+  /*background-color: #eb5055;
+  border: 1px solid #666d89;*/
+  background-color: #f2f2f2;
+  margin: 24px 2px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.galleryPeople img.social:hover {
+  background-color: #eb5055;
+}
