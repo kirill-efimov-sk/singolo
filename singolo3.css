@@ -124,7 +124,7 @@ form p {
   text-align: justify;
   margin: 23px 0px -11px -3px;
 }
-BgBottom {
+.BgBottom {
   width: 1020px;
   height: 6px;
   background-color: #ea676b;
