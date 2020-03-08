@@ -1,0 +1,164 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper_s3 {
+  display: grid;
+  grid-template-areas:  "section"
+                        "footer";
+  grid-template-columns: 100%;
+  width: 1020px;
+  margin: 0 auto;
+  font-family: "Lato";
+}
+section {
+  grid-area: section;
+  width: 1020px;
+  height: 653px;
+  background-color: #f06c64;
+}
+footer {
+  width: 1020px;
+  height: 76px;
+  background-color: #2d303a;
+}
+.logo1 {
+  font-size: 30px;
+  color: #f0d8d9;
+  font-weight: 900;
+  margin: 0px 810px 0px 40px;
+  padding-top: 60px;
+}
+.text2 {
+  width: 940px;
+  font-weight: 300;
+  font-size: 17.5px;
+  color: #f0d8d9;
+  margin: 0px 297px 0px 40px;
+  padding-top: 17px;
+  line-height: 1.8;
+  text-align: justify;
+}
+span {
+  letter-spacing: 0.1pt;
+  word-spacing: 0.3pt;
+}
+.wrapper_contact {
+  display: flex;
+  margin: 27px 0px 0px 40px;
+}
+.wrapper_contact input {
+  font-size: 12px;
+  line-height: 22px;
+  color: #fcfcfc;
+  font-family: "Lato";
+  font-weight: 400;
+  padding-left: 15px;
+}
+.wrapper_contact .inBut {
+  border-radius: 2px;
+  color: #2d303a;
+  text-align: center;
+}
+
+form p {
+  margin: 15px 0px 0px 0px;
+}
+#name,
+#email,
+#subject {
+  width: 604px;
+  height: 36px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #d6564f;
+}
+#describe {
+  width: 604px;
+  height: 36px;
+  padding-bottom: 164px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #d6564f;
+}
+#name::placeholder,
+#email::placeholder,
+#subject::placeholder,
+#describe::placeholder {
+  font-size: 12px;
+  line-height: 22px;
+  color: #f48c8f;
+  font-family: "Lato";
+  font-weight: 400;
+}
+.contactInf {
+  margin: -8px -12px 0px 22px;
+}
+.contactInf .logoContact {
+  font-weight: 900;
+  font-size: 17.5px;
+  color: #f0d8d9;
+  line-height: 1.8;
+  text-align: justify;
+}
+.contactInf .textContact {
+  font-weight: 400;
+  font-size: 12px;
+  color: #f0d8d9;
+  line-height: 1.9;
+  word-spacing: 0px;
+  text-align: justify;
+  margin: -15px 51px 0px -2px;
+}
+.contactInf p a {
+  width: 7px;
+  height: 7px;
+  margin: 0px 15px 0px 3px;
+}
+.textContactInf {
+  font-weight: 400;
+  font-size: 12px;
+  color: #f0d8d9;
+  line-height: 0;
+  word-spacing: 0px;
+  text-align: justify;
+  margin: 23px 0px -11px -3px;
+}
+BgBottom {
+  width: 1020px;
+  height: 6px;
+  background-color: #ea676b;
+}
+footer {
+  display: flex;
+}
+footer .labelContact{
+  margin-left: auto;
+  margin-right: 36px;
+}
+footer a {
+  margin: 24px 2px 0px 0px;
+}
+footer img.social {
+  width: 34px;
+  height: 34px;
+  border-radius: 18px;
+  /*background-color: #eb5055;
+  border: 1px solid #666d89;*/
+  background-color: #2d303a;
+  float: right;
+  margin: 22px 3px 0px 3px;
+}
+footer img.social:hover {
+  background-color: #d6564f;
+}
+.copyright {
+  color: #626986;
+  margin: 31px 40px 0px 41px;
+  font-weight: 400;
+  font-size: 12px;
+}
+.copyright:hover {
+  color: #d6564f;
+  cursor: default;
+}
