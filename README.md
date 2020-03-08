@@ -7,3 +7,6 @@ https://kirill-efimov-sk.github.io/singolo/singolo2.html
 
 Домашнее задание: Singolo. Part 3
 https://kirill-efimov-sk.github.io/singolo/singolo3.html
+
+Полная версия
+https://kirill-efimov-sk.github.io/singolo/singolo.html
