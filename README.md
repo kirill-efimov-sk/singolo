@@ -9,4 +9,4 @@ https://kirill-efimov-sk.github.io/singolo/singolo2.html
 https://kirill-efimov-sk.github.io/singolo/singolo3.html
 
 Полная версия
-https://kirill-efimov-sk.github.io/singolo/singolo.html
+https://kirill-efimov-sk.github.io/singolo/index.html
