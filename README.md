@@ -17,3 +17,5 @@ Tasks for the full version
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/part-3/singolo-3-ru.md
 
 https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo-DOM-ru.md
+
+https://github.com/rolling-scopes-school/tasks/blob/master/tasks/markups/level-2/singolo/singolo-responsive-ru.md
