@@ -1143,7 +1143,7 @@ input:not([type="checkbox"]) {
     word-spacing: 3.1px;
   }
 }
-@media (min-width: 375px) and (max-width: 767px)  {
+@media (max-width: 767px)  {
   /*Sin1-------------------------------*/
   .singPage {
     width: 375px;
@@ -1508,17 +1508,5 @@ input:not([type="checkbox"]) {
   }
   .toasts {
     margin: 15px 0px 0px 25%;
-  }
-}
-@media (max-width: 374px)  {
-  .singPage {
-    width: 375px;
-    margin: 0 auto;
-  }
-  img.phones {
-    height: 450px;
-  }
-  .slider {
-    height: 447px;
   }
 }
