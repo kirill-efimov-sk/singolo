@@ -33,6 +33,68 @@ function clickBtm(btn) {
       i++;
     }
 };
+window.addEventListener('scroll', function(e) {
+  if (window.pageYOffset < 400 && window.pageYOffset > 0) {
+    let btn = document.querySelector('#base').id;
+    clickBtm(btn)
+  }
+  if (window.pageYOffset > 550 && window.pageYOffset < 1045) {
+    let btn = document.querySelector('#ServicesHrf').id;
+    clickBtm(btn)
+  }
+  if (window.pageYOffset > 1045 && window.pageYOffset < 1800) {
+    let btn = document.querySelector('#PortfolioHrf').id;
+    clickBtm(btn)
+  }
+  if (window.pageYOffset > 1800 && window.pageYOffset < 2460) {
+    let btn = document.querySelector('#AboutHrf').id;
+    clickBtm(btn)
+  }
+  if (window.pageYOffset > 2460) {
+    let btn = document.querySelector('#ContactHrf').id;
+    clickBtm(btn)
+  }
+});
+//burger for navbar
+document.querySelector('#burger_panel').addEventListener('click', function() {
+  let rotate = document.querySelector('.header nav').classList.length;
+  document.querySelector('.header nav').className = 'new-list';
+  if (rotate == 0) {
+    document.querySelector('.burger_img').style.transform = 'rotate(90deg)';
+    document.querySelector('.containerSin1').classList.add('bg-fon');
+    document.querySelector('.contentSin2').classList.add('bg-fon');
+    document.querySelector('.contentSin3').classList.add('bg-fon');
+    document.querySelector('.logo').classList.add('logo-translate');
+  }
+  else {
+    document.querySelector('.burger_img').style.transform = 'rotate(180deg)';
+    document.querySelector('.header nav').classList.remove('new-list');
+    document.querySelector('.containerSin1').classList.remove('bg-fon');
+    document.querySelector('.contentSin2').classList.remove('bg-fon');
+    document.querySelector('.contentSin3').classList.remove('bg-fon');
+    document.querySelector('.logo').classList.remove('logo-translate');
+  }
+  return;
+});
+document.querySelector('.containerSin1').addEventListener('click', listen);
+document.querySelector('.contentSin2').addEventListener('click', listen);
+document.querySelector('.contentSin3').addEventListener('click', listen);
+
+  function listen() {
+  let rotate = document.querySelector('.header nav').classList.length;
+  if (rotate == 0) {
+   return false;
+  }
+  else {
+    document.querySelector('.burger_img').style.transform = 'rotate(180deg)';
+    document.querySelector('.header nav').classList.remove('new-list');
+    document.querySelector('.containerSin1').classList.remove('bg-fon');
+    document.querySelector('.contentSin2').classList.remove('bg-fon');
+    document.querySelector('.contentSin3').classList.remove('bg-fon');
+    document.querySelector('.logo').classList.remove('logo-translate');
+  }
+  return;
+};
 
 
 //MOBILE SCREEN OFF
@@ -293,7 +355,7 @@ Toast.add = function (params) {
   if (!document.querySelector('.toasts')) {
     let container = document.createElement('div');
     container.classList.add('toasts');
-    container.style.cssText = 'position: absolute; margin: 10px 0 0 75%; width: 250px; ';
+    container.style.cssText = 'position: absolute; margin: 10px 10px; width: 360px;';
     document.querySelector('.msgBox').appendChild(container);
   }
   document.querySelector('.toasts').appendChild(Toast.create(config.text1, config.text2, config.text3, config.text4, config.color));
